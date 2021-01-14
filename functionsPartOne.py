@@ -111,3 +111,86 @@ print(square(4))
 def yell(noise):
     return noise.upper() + '!'
 '''
+
+# Animal sound functions
+
+# solution 1
+'''
+
+def speak(animal="dog"):
+    if animal == "pig":
+        return "oink"
+    elif animal == "duck":
+        return "quack"
+    elif animal == "cat":
+        return "meow"
+    elif animal == "dog":
+        return "woof"
+    else:
+        return "?"
+'''
+
+# Other solutions
+# Mapping noises to a dictionary
+'''
+def speak(animal="dog"):
+    noises = {"dog": "woof", "pig": "oink", "duck": "quack", "cat": "meow"}
+    noise = noises.get(animal)
+    if noise:
+        return noise
+    return "?"
+''''
+
+
+# KEYWORD ARGUMENTS
+# keywords let us specify the parameters if we know them
+# example
+'''
+def full_name(first, last):
+    return "Your name is {first} {last}"
+
+
+full_name(fist='Peter', last='Steyer')  # Your name is Peter Steyer
+full_name(last='Steyer', first='Peter')  # Your name is Peter Steyer
+# Order does not matter!!
+'''
+
+'''
+def exponent(num, power=2)
+    return num ** 2
+
+print(exponent(power=3, num=4))
+print(exponent(num=4, power=3))
+'''
+
+# Why use keyword Arguments?
+# Useful when passing a diuctionary to a function and unpoacking it's values
+
+# Different from Default Params
+# When you define a function and use = you are setting a default parameter
+# When you invoke a function and use an = yopu are making a keyword argument
+
+
+# SCOPE
+# variables and properties are not awlays available in every single part of the project
+# Variables created in function are scoped in that function!
+# global scope lets us reference variables that were  orginally assigned on the global scope
+# nonlocal lets us modify a parent's variables in a child(aka nested) function
+
+
+# Documenting Functions
+# use """ """ to document what each function does
+'''
+def say_hello():
+    """A simple function that returns the string hello"""
+    return "Hello!"
+
+say_hello._doc #access the message above
+'''
+
+
+######RECAP#########
+# Functions are procedures for executing code. They accept inputs and return outputs when the return keyword is used
+# To create inputs, we make parameters which can have default values, we call those default parameters
+# Variables defined inside of functions are scoped to that function - watch for that
+# When invoking a function we can pass in keyword arguments in any order
