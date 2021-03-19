@@ -1,0 +1,42 @@
+Notes
+
+
+Inheritance
+    A key feature of OOP is the ability to define a class which inherits from another class (a "base" or "parent" class).
+
+
+
+Properties
+    _propertyname, this signifies that it should only be used within this class
+    - using _propertyname signifies that it is a private for this class
+
+
+__init__ method
+"__init__" is a reseved method in python classes.
+It is called as a constructor in object oriented terminology.
+This method is called when an object is created from a class and it allows the class to initialize the attributes of the class
+
+
+The word 'self' is used to represent the instance of a class.
+
+The constructor is a method that is called when an object is created
+     This method is defined in the class and can be used to initialize basic variables
+      If you create four objects, the class constructor is called four times
+
+
+
+
+Method Resolution Order (MRO)
+
+Whenever you create a class, Python sets a Method Resolution Order, or MRO, for that class, which is the order in which Python will look for methods on instances of that class
+
+
+
+
+Polymorphism
+
+    a Key principle in OOP is the idea of polymorphism - an object can take on on many forms
+
+    while formal definition of prolmorphism is difficult, here are two important practical applications:
+        1: The same class method works in similar way for different classes
+        2: Same operation works for different kinds of objects

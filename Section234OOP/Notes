@@ -1,0 +1,42 @@
+
+
+OOP - Object Oriented Programming
+
+Objectives:
+    - Define what object Oriented Programming is
+    - UInderstand encapsulation and abstraction
+    - Create classes and instances and attach methods and properties to each
+
+
+
+What is OOP?
+    Object Oriented Programming
+        - a method of programming that attempts to model some process or thing in the world such as a class or object
+    Class
+        - a blue print for objects. Classes can contain methods (functions) and attributes (similar to keys in a dict).
+    Instance - objects that are constructed from a class blueprint that contain their class's methods and properties
+
+
+Why OOP?
+    With object oriented programming the goal is to encapsulate your code into logical, hierarchical grouping using classes so that you can reason about your code at a higher level
+
+    Deck of card examples:
+
+    _cards (private list attributes)
+    _max_cards (private int attribute)
+    deal_card (public method)
+    deal_hand   (public method)
+    count   (public method)
+
+
+
+Encapsulation - the grouping of public and private attributes and methods into a programmatic class, makign abstraction possible
+
+example
+    - Designing a deck class, I make cards a private attribute( a list)
+    -- I decide the length that the cards should be accessed via a public method called count() -- i.e Deck.count()
+
+
+
+Abstraction
+    Expsing only relevant data in a class interface, hiding private attributes and methods from users

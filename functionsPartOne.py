@@ -194,3 +194,51 @@ say_hello._doc #access the message above
 # To create inputs, we make parameters which can have default values, we call those default parameters
 # Variables defined inside of functions are scoped to that function - watch for that
 # When invoking a function we can pass in keyword arguments in any order
+
+
+# Exercises
+
+# Write a function call product that accepts two parameters and returens the product of the two parameters
+'''
+def product(a, b_):
+    return a * b
+'''
+
+
+# Wrrite
+# Write a function called return_day. This function takes in one parameter (a number from 1-7) and returns the day of the week (1 is sunday, 2 is monday, ect). If the number is less than 1 or greater than 7, the function should return none
+
+def return_day(day):  # defines function
+    week_day = [Sunday, Monday, Tuesday, Wednesday,
+                Thursday, Friday, Saturday]  # defines list
+    # if day is geater then 0 AND less than or equal to the length of week_day
+    if day > 0 and day <= len(week_day):
+        return week_day[day - 1]  # return the index of week_day - 1
+    return None  # return none if any other value
+
+
+# Write a function called last_element. This function takes on parameter (a list) and returns the last value in the the list. It should return None if list is empty
+
+def last_element(x):  # defines x
+    if x:
+        return x[-1]
+    return None
+
+    def last_element(item):
+        last = items[-1]
+        if last:
+            return last
+        return None
+
+
+def number_compare(a, b):
+    if a > b:
+        print('First is greater')
+    elif a < b:
+        print('Second is greater')
+    else:
+        print('Numbers are equal')
+    pass
+
+
+number_compare(3, 1)
