@@ -5,7 +5,7 @@
 
 
 def my_for(iterable, func):
-    iterator = iter(iterable)
+    iterator = iter(iterable) #iter returns the iterator on an iterable object
     while True:
         try:
             thing = next(iterator)

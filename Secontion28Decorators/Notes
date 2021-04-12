@@ -1,0 +1,8 @@
+
+
+What's a decorator???
+
+    Decorators are functions
+    Decorators wrap other functions and enchance their behavior
+    Decorators are examples of higher order functions
+    Decorators have their own syntax, using "@"

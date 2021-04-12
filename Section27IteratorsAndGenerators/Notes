@@ -19,7 +19,10 @@ Generators
     generators function use the yield keyword
     generators can be created with generator expressions
 
+A generator function is just a way of creating a generator.. which is an iterator
+If you write a function and you put yield in it anywhere, instead of return.. it'll give you a generator object
 
+y
 Functions vs Generator Functions
 
 Functions
@@ -32,8 +35,3 @@ USES yield
 can yield multiple times
 when invoked, returns a generator
 
-def count_up_to(max):
-    count = 1
-    while count <= max:
-    yield count
-    count += 1
