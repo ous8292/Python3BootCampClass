@@ -1,0 +1,47 @@
+
+Objectives
+    -Read text files in python
+    -write text files in python
+    -use "with" blocks when reading/writing files
+    -describe the different ways to open a file
+    -read CSV files in Python
+    -Write CSV files in Python
+
+
+
+
+
+Reading Files
+    - you can read a file with the open function
+    - open returns a file object to you
+    - you can read a file object with the read method
+
+
+   Open returns a file object
+
+   Cursor Movement
+    -Python reads files by using a cursor
+    - This cursor is like what you use while your typing
+    - After file is read, the cursor is at the end
+    - to move the cursor, use the seek method
+
+Closing a file
+    - You can close a file with the close method
+    - You can check if a file is closed with the closed attribute
+    - Once closed, a file can't be read again
+
+
+
+
+Wiritng Files
+
+    - You have to use the open function to write to files
+    - Need to specify the "w" flag as the second argument (default is"r" for reading")
+
+
+Mods for Opening Files
+    - r - read a file (no writing) - this is default
+    - w - Write to a file (previous content removed)
+    - a - append to a file (previous contents no removed)
+        - append will always to the end, no matter what.
+    - r+ - Read and write to a file (writing based on cursor)

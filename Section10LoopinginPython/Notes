@@ -1,0 +1,17 @@
+#In python for loops are written like this:
+
+for item in iterable_object:
+    #do something with object
+
+
+Key words for and in do not change
+
+An iterable object is some kind of collection of items, for instance: a list of numbers, string of characters,
+    a range, ect
+
+item is a new variable that can be called whatever you want
+
+item references the current position of our iterator within the iterable. It will iterate over (run through) every item
+    of the collection and then go away when it visted all items
+
+

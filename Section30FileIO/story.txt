@@ -1,0 +1,3 @@
+Writing to the file is great!
+another text line!!
+closing now, goodbye!
