@@ -1,0 +1,25 @@
+
+
+CSV - coma seperated values
+        - CSV files are common file format for tabular data
+        - We can read CSV files just like other files
+        - Python has a build in CSV module to read/write CSVs more easily
+
+
+
+
+
+CSV Module
+
+    reader - lets you iterate over rows of the csv as lists
+    DictReader - lets you iterate over rows of the SCV as OrderedDicts
+
+
+
+
+
+
+Writing CSV Files
+    using lists
+        writer - creates a writer object for writing CSV
+        writerow - method on a writer to write a row in CSV
